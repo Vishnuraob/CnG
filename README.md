@@ -14,29 +14,15 @@ The system processes a live camera stream or a prerecorded video and overlays de
 
 ---
 
-Project Structure
-
-- `main.py` – Core script for loading video and detecting movements
-- `models/` – (Optional) Pretrained models if needed in future
-- `videos/` – Sample or output videos
-- `requirements.txt` – Python dependencies
-
----
-
 ## ⚙️ How It Works
 
 This project uses [MediaPipe Pose](https://google.github.io/mediapipe/solutions/pose) to identify body landmarks and applies rule-based logic for each movement type:
 
-- **Rolling Over:** Monitored by shoulder orientation and hip rotation
-- **Head Turning:** Detected using relative distance between eyes and ears
-- **Sitting Without Support:** Based on hip-knee-foot alignment and torso angle
-- **Walking:** Detected by analyzing foot and hip movements across frames
 
----
 
 ## ▶️ How to Run
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/baby-movement-detector.git
+   git clone https://github.com/vishnuraob/CnG.git
    cd baby-movement-detector
