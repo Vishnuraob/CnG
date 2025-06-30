@@ -26,7 +26,7 @@ The system processes a live camera stream or a prerecorded video and overlays de
 
 ## ⚙️ How It Works
 
-This project uses [MediaPipe Pose](https://google.github.io/mediapipe/solutions/pose) to identify body landmarks and applies rule-based logic for each movement type:
+This project uses [MediaPipe Pose] to identify body landmarks and applies rule-based logic for each movement type:
 
 
 
